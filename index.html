@@ -1,102 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bebarber</title>
-</head>
-<style>
-    body{
+  </head>
+  <style>
+   
+    body {
         margin: 0;
         padding: 0;
         background-color: rgb(247, 189, 82);
         color: black;
+        font-family: "Poppins", sans-serif;
     }
-    .nav
-    {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        background-color: rgb(221, 162, 51);
-        padding: 5px;
+    .nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      background-color: rgb(221, 162, 51);
+      padding: 5px;
     }
-    .list ul{
-        display: flex;
-     
+    .list ul {
+      display: flex;
     }
-.list a{
-color: black;
-text-decoration: none;
-}
+    .list a {
+      color: black;
+      text-decoration: none;
+    }
 
-.list li{
-    list-style: none;
-    margin: 15px;
-    padding: 5px;
-    box-sizing: border-box;
-}
+    .list li {
+      list-style: none;
+      margin: 15px;
+      padding: 5px;
+      box-sizing: border-box;
+      font-weight: bold;
 
-.list a:hover{
+    }
 
-    border-bottom: 2px solid black;
-    padding-bottom: 41px;
-}
+    .list a:hover {
+      border-bottom: 2px solid black;
+      padding-bottom: 41px;
+    }
 
-.img img{
-    margin-top: 27px;
-}
+    .img img {
+      margin-top: 27px;
+    }
 
-.headline{
-   padding-top:10vh;
-   padding-bottom: 10vh;
-    font-size: 28px;
-    line-height: 7px;
-}
+    .headline {
+      font-size: 25px;
+      line-height: 25px;
+      padding: 12vh;
+    }
 
-.container2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center ;
-}
-
-.heroimage{
-     /* width: 100%; 
-height: 45vh;  */
-background-color: aqua;
-}
-
-.heroimage > img{
-
-    width: 204vh;
-    height: 45vh;
-    object-fit: cover;
-}
-
-</style>
-<body>
+    .heroimage img {
+      width: 100%;
+      height: 48vh;
+      object-fit: cover;
+      background-color: aqua;
+      margin-top: 9px;
+    }
+  </style>
+  <body>
     <div class="nav">
-    <div class="img">
-<img src="logo.png" alt="logo">
-    </div>
-    <div class="list">
+      <div class="img">
+        <img src="/logo.png" alt="logo" />
+      </div>
+      <div class="list">
         <ul>
-            <li> <a href="#">Home</a></li>
-            <li> <a href="#">Story</a></li>
-            <li> <a href="#">Our Team</a></li>
-            <li> <a href="#">Services</a></li>
-            <li> <a href="#">Contact</a></li>
-            <li> <a href="#">Buy Now</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Story</a></li>
+          <li><a href="#">Our Team</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Buy Now</a></li>
         </ul>
-    </div>
+      </div>
     </div>
 
     <div class="headline">
-<h2>Atul Hair Salon Kalakote Wale..</h2>
-<h2>Sadak se Uthakr Star Bana Dunga 😂..</h2>
+      <h2>Atul Hair Salon Kalakote Wale..</h2>
+      <h2>Sadak se Uthakr Star Bana Dunga 😂..</h2>
     </div>
     <div class="heroimage">
-<img src="hero-img.avif" alt="nai">
-</div>
-</body>
+      <img
+        src="https://images.unsplash.com/photo-1532710093739-9470acff878f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="Barber"
+      />
+    </div>
+  </body>
 </html>
